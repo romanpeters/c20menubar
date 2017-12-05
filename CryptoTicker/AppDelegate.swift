@@ -15,9 +15,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
     
-    let USD_rate = 0.844138304
-    var NAV_price = 1.10 * 0.844138304
-    let NAV_amount = 4242.5388 + 1025.1344
+    let USD_rate = 0.844138304 //TODO get rate
+    var NAV_price = 1.10 * 0.844138304 //TODO get rate
+    let NAV_amount = //TODO get amount of NAV tokens
     
     
     @IBAction func quitClicked(_ sender: NSMenuItem) {
