@@ -6,3 +6,4 @@ Note: This is my first time coding in Swift, and it shows. Although the app work
 
 ![screenshot.png](https://github.com/romanpeters/c20statusbar/blob/master/sample.png?raw=true)
 
+Enter the amount of C20 tokens your holding in `AppDelegate` to list the total worth.

@@ -17,7 +17,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     let USD_rate = 0.844138304 //TODO get rate
     var NAV_price = 1.10 * 0.844138304 //TODO get rate
-    let NAV_amount = //TODO get amount of NAV tokens
+    let NAV_amount = 1 //TODO fill in your total C20 amount here
     
     
     @IBAction func quitClicked(_ sender: NSMenuItem) {
