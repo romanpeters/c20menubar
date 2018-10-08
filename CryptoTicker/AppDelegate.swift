@@ -15,8 +15,9 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     
     let statusItem = NSStatusBar.system.statusItem(withLength: NSStatusItem.variableLength)
     
-    let USD_rate = 0.844138304 //TODO get rate
-    var NAV_price = 1.10 * 0.844138304 //TODO get rate
+    let USD_rate = 0.871405019  //TODO get rate
+    var NAV_price = 1.10 * USD_rate //TODO get rate
+   
     let NAV_amount = 1 //TODO fill in your total C20 amount here
     
     
@@ -29,9 +30,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
         // Insert code here to initialize your application
         constructMenu()
         
-        var timer = Timer.scheduledTimer(timeInterval: 300, target: self, selector: #selector(self.getData), userInfo: nil, repeats: true)
-
-        
+        var timer = Timer.scheduledTimer(timeInterval: 300, target: self, selector: #selector(self.getData), userInfo: nil, repeats: true)        
     }
     
     
